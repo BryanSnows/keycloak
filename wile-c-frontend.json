@@ -4,8 +4,8 @@
   "enabled": true,
   "alwaysDisplayInConsole": false,
   "clientAuthenticatorType": "client-secret",
-  "redirectUris": [],
-  "webOrigins": [],
+  "redirectUris": ["*"],
+  "webOrigins": ["*"],
   "notBefore": 0,
   "bearerOnly": false,
   "consentRequired": false,
@@ -69,13 +69,7 @@
       }
     }
   ],
-  "defaultClientScopes": [
-    "web-origins",
-    "acr",
-    "roles",
-    "profile",
-    "email"
-  ],
+  "defaultClientScopes": ["web-origins", "acr", "roles", "profile", "email"],
   "optionalClientScopes": [
     "address",
     "phone",
